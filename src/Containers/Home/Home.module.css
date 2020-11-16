@@ -1,0 +1,30 @@
+.ArticlesContainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.topContainer {
+    
+    margin-top:100px;
+    height:500px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: calc(100vh - (670px)) ;
+}
+
+.searchInput {
+    margin-top:100px;
+    
+}
+
+
+.searchInput input {
+    padding:10px 30px;
+    
+}
+.searchInput input:focus {
+   outline:none;
+    
+}
